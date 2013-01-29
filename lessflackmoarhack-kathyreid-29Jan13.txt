@@ -1,0 +1,101 @@
+SLIDE 1 - TITLE and CONTACT DETAILS
+
+Introduction
+
+First of all, thanks for choosing to come to my presentation, particularly when there are so many high calibre talks to choose from. A huge thanks also to Bianca and to Robyn for organising today's Haecksen miniconf. 
+
+If you're hearing impaired, there's a transcript of this talk available 
+(transcript)
+
+My name is Kathy Reid - I'm @KathyReid on Twitter, GitHub etc, and my day job is at a Victorian university doing a variety of digital things. Outside of work I'm really keen about knitting and exploring technology, and today I'd like to take you on a journey around the intersection of these two passions. 
+
+SLIDE 2 - ELIOT QUOTE
+
+Life always presents us with choices. Sometimes those choices are easy - tea or coffee, black shirt or white, Aussie rules or soccer. Generally though they're more nuanced - and the same is true for technology and the way in which we respond to it. 
+
+We make choices about technology every day - whether we're conscious of them or not - which operating system to use, which software to use, iPhone or Android, which tablet, how much to share or not share, and indeed choosing when to turn off. 
+
+What we're perhaps not so conscious of - yet - is that it's becoming easier to make and modify our own technology. If we're not happy with how something works, we're able to make it better, void its warranty - and hack it. We can CHOOSE to improve it. 
+
+Realising that you have a choice is the difference between;
+
+SLIDE 3 - CHICK HATCHING OUT OF EGG
+
+breaking free of your constraints
+
+SLIDE 4 - BACON AND EGGS
+
+or having someone else determine your future!
+
+So, what does that all mean in terms of technology?
+
+It means that once we choose that we want to have more control over technology, we need the tools to be able to exert that control. 
+
+In the open hardware scene, we're seeing adoption of 3D printers such as Reprap and MakerBot. In the home automation scene, tools such as Arduino, Xigbee and Ninja Blocks are carving a niche that used to be filled with proprietary systems such as AMX and Extron. 
+
+But what about smart crafting and textiles?
+
+SLIDE 5 - LILYPAD ARDUINO
+
+Enter: Lilypad Arduino - designed by a lady called Leah Buechley, Lilypad Arduino is designed to foster the development of electronic textiles - smart crafting with sensors, lights - really, anything you want to imagine. 
+
+SLIDE 6 - LILYPAD JEWELLERY
+
+You can even use Lilypad Arduino to create interactive jewellery.
+
+SLIDE 7 - REQUIREMENTS
+
+So, what do you need to get started working with Lilypad Ardunio
+
+1. You'll need some Arduino components, such as main board, sensors and outputs.
+Here's a selection of some of the pieces.
+If you're working with eTextiles, you'll also need some conductive thread.
+You'll also need a USB cable to connect to your Lilypad board for programming. 
+
+2. You'll need to install the Arduino IDE environment - it's available for all major platforms.
+
+Above all though you'll need your IMAGINATION.
+
+What I'd like to do now is walk you through two very simple Lilypad Arduino projects.
+One is a completed project, and I'll walk you through the code while demonstrating the article.
+
+The second is a work in progress and I'll provide some tips and tricks for working with Arduino Lilypad at this stage.
+
+SLIDE 8 - Light Scarf
+
+(Kathy demonstrates Light Scarf)
+
+The premise behind this project is that if it's dark at night, and you're possibly in a dangerous neighbourhood, then it would be handy if your accessories provided some light to guide you - and deter would-be predators. Enter the LightScarf. This scarf uses a light detection sensor, part of the Lilypad range, and if the surrounding light levels drop below a threshold, then it lights up an LED on the scarf.
+
+This was my first Lilypad Arduino project, and the key challenge was that I couldn't fit more than one LED on to the actual scarf. The battery design here is also very chunky - and while it's well hidden in a chunky looking scarf, there are probably better ways to incorporate it from a design point of view. 
+
+SLIDE 9 - Temperature sensing beanie
+
+(Kathy demonstrates Temp Sensing Beanie)
+
+The purpose of this little project was to see if a beanie that senses temperature, and indicates if the person wearing it is too hot - such as with a fever, was possible. It's still under development, and I've come up against a couple of challenges. 
+
+Firstly, the thermistor component which senses the temperature is reliant on a reference voltage from the Lilypad board. The voltage can fluctuate dependending on the length of the run of the conductive thread, so getting an accurate temperature reading was a challenge. Also, sewing the components in in such a way that they're visually appealling, and don't cause discomfort for the wearer - is going to be a challenge. 
+
+SLIDE 10 - SUMMARY
+
+As you can see, the applications of eTextiles, and specifically Lilypad Arduino, are boundless.
+What about clothing that can detect when say an autistic child is near a body of water?
+What about clothing that can be used to notify someone if a cancer patient has a life-threatening temperature?
+Fabric that lets you know what your heart rate is?
+
+So, in conclusion I invite you to make an active choice with technology.
+I encourage you to explore open source e-textiles such as Lilypad Arduino, and to dream of what's possible. 
+
+Thank you. 
+ 
+
+PHOTO CREDITS
+
+Bacon and Eggs - Katherine Lim - http://www.flickr.com/photos/ultrakml/8173785593
+
+Chick hatched from egg - Rick Kimpel - www.flickr.com/photos/rkimpeljr/201204913
+
+Lilypad bits - Rain Rabbit - http://www.flickr.com/photos/37996583811@N01/4694510950
+
+Lilypad jewellery - savagejen - http://www.flickr.com/photos/miserynotes/4429968289
